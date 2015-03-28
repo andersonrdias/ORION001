@@ -20,6 +20,7 @@ namespace ORIONNFE
         {
             CLASSE.xml _xml = new CLASSE.xml();
             _xml.GerarArquivoXml();
+            MessageBox.Show("Teste");
         }
     }
 }
